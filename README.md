@@ -49,6 +49,26 @@ http://localhost:8000/logout/
 requires to be logged in.
 ```
 
+**Profile**
+```
+Method: GET
+http://localhost:8000/profile/<int:pk>/
+<int:pk> is user ID.
+requires to be logged in. User can display only his/her own profile.
+superusers can display all profiles.
+
+Example: http://localhost:8000/profile/2/ 
+Displays the details of user with id 2
+```
+
+**Users List**
+```
+Method: GET
+http://localhost:8000/users/
+Displays a list of registered users.
+requires to be a superuser and logged in.
+```
+
 **Change Password**
 ```
 Method: PUT
@@ -69,23 +89,4 @@ requires username, email, first_name and last_name
 
 Example: http://localhost:8000/change_password/2/ 
 Updates the details of user with id 2
-```
-**Profile**
-```
-Method: GET
-http://localhost:8000/profile/<int:pk>/
-<int:pk> is user ID.
-requires to be logged in. User can display only his/her own profile.
-superusers can display all profiles.
-
-Example: http://localhost:8000/profile/2/ 
-Displays the details of user with id 2
-```
-
-**Users List**
-```
-Method: GET
-http://localhost:8000/users/
-Displays a list of registered users.
-requires to be a superuser and logged in.
 ```
