@@ -28,21 +28,21 @@ Create a virtual Environment, activate it and install packages from `requirement
 
 ## Endpoints
 
-**Login :** 
+**Login** 
 ```
 Method: POST
 http://localhost:8000/login/
 requires username and password, returns an auth token.
 ```
 
-**Register :** 
+**Register** 
 ```
 Method: POST
 http://localhost:8000/register/
 requires username, email, password, password2, first_name and last_name
 ```
 
-**Logout :** 
+**Logout** 
 ```
 Method: POST
 http://localhost:8000/logout/
@@ -80,7 +80,7 @@ Example: http://localhost:8000/change_password/2/
 changes the password of user with id 2
 
 ```
-**Update Profile :** 
+**Update Profile** 
 ```
 Method: PUT
 http://localhost:8000/update_user/<int:pk>/
