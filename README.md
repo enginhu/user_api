@@ -6,7 +6,7 @@ Download the repo and navigate to root folder.
     cd user_api
 ```
 
-Create a virtual Environment, activate it and install packages from `requirements.txt`
+Create a virtual environment, activate it and install packages from `requirements.txt`
 
 ```bash
     python -m venv venv
@@ -16,7 +16,6 @@ Create a virtual Environment, activate it and install packages from `requirement
 
 **Make Migrations**
 ```bash
-    python manage.py makemigrations
     python manage.py migrate
 ```
 
