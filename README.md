@@ -28,6 +28,8 @@ Create a virtual Environment, activate it and install packages from `requirement
 
 ## Endpoints
 
+*You can make requests with Postman*
+
 **Login** 
 ```
 Method: POST
