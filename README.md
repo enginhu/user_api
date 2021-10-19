@@ -28,7 +28,7 @@ Create a virtual Environment, activate it and install packages from `requirement
 
 ## Endpoints
 
-*You can make requests with Postman*
+*You can make requests with [Postman](https://www.postman.com/downloads/)*
 
 **Login** 
 ```
